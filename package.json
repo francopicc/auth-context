@@ -1,10 +1,25 @@
 {
+  "name": "auth-context-supabase",
+  "version": "1.0.0",
+  "description": "Context and Hooks for Supabase Auth.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": ["supabase", "react", "auth", "context"],
+  "author": "Tu Nombre",
+  "license": "MIT",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.1",
+    "react": "^19.0.0"
+  },
   "devDependencies": {
     "@types/react": "^19.0.10",
     "typescript": "^5.8.2"
   },
-  "dependencies": {
-    "@supabase/supabase-js": "^2.49.1",
-    "react": "^19.0.0"
-  }
+  "files": [
+    "dist",
+    "src"
+  ]
 }
