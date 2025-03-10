@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "@types/react": "^19.0.10",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.1",
+    "react": "^19.0.0"
+  }
+}
